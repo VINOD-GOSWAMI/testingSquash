@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'bat "type abc.txt"'
+        sh 'bat \'echo Hello, Jenkins!\''
       }
     }
 
