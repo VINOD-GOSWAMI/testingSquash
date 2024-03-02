@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        pwsh 'print abc.txt'
+        pwsh 'more abc.txt'
       }
     }
 
