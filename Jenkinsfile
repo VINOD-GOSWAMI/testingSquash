@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        pwsh 'more abc.txt'
+        sh 'bat "type abc.txt"'
       }
     }
 
